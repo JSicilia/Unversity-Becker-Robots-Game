@@ -1,0 +1,11 @@
+import becker.robots.*;
+import javax.swing.ImageIcon;
+
+public class TreasureChest extends Thing
+{
+  public TreasureChest(City theCity, int str, int ave)
+  {
+    super(theCity, str, ave);
+    this.setIcon(new TreasureIcon());
+  }
+}

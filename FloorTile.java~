@@ -1,0 +1,14 @@
+import becker.robots.*;
+import javax.swing.ImageIcon;
+import java.awt.*;
+
+ //Do commenys stuff zzzzzzzzzzzzzzzzzz
+public class FloorTile extends Intersection
+{
+  public FloorTile(City theCity, int str, int ave)
+  {
+    super(theCity, str, ave);
+    this.setColor(Color.RED);
+    this.setIcon(new FloorIcon());
+  }
+}

@@ -1,0 +1,102 @@
+# A city with one robot, one thing and one wall.
+# Window title
+James' Video Game
+# first street, first avenue, num streets, num avenues
+0 0 9 9
+# intersection size
+48
+
+
+#Starting Room
+becker.robots.Wall 0 2 Direction.EAST
+becker.robots.Wall 2 2 Direction.EAST
+becker.robots.Wall 0 0 Direction.WEST
+becker.robots.Wall 1 0 Direction.WEST
+becker.robots.Wall 2 0 Direction.WEST
+becker.robots.Wall 0 0 Direction.NORTH
+becker.robots.Wall 0 1 Direction.NORTH
+becker.robots.Wall 0 2 Direction.NORTH
+becker.robots.Wall 2 0 Direction.SOUTH
+becker.robots.Wall 2 1 Direction.SOUTH
+becker.robots.Wall 2 2 Direction.SOUTH
+
+#First Dungeon
+becker.robots.Wall 0 5 Direction.EAST
+becker.robots.Wall 1 5 Direction.EAST
+becker.robots.Wall 2 5 Direction.EAST
+becker.robots.Wall 0 3 Direction.NORTH
+becker.robots.Wall 0 4 Direction.NORTH
+becker.robots.Wall 0 5 Direction.NORTH
+becker.robots.Wall 0 3 Direction.WEST
+becker.robots.Wall 2 3 Direction.WEST
+becker.robots.Wall 2 3 Direction.SOUTH
+becker.robots.Wall 2 5 Direction.SOUTH
+
+#Second Dungeon
+becker.robots.Wall 3 3 Direction.NORTH
+becker.robots.Wall 3 5 Direction.NORTH
+becker.robots.Wall 3 3 Direction.WEST
+becker.robots.Wall 5 3 Direction.WEST
+becker.robots.Wall 5 3 Direction.SOUTH
+becker.robots.Wall 5 5 Direction.SOUTH
+becker.robots.Wall 3 5 Direction.EAST
+becker.robots.Wall 5 5 Direction.EAST
+
+#Large Room
+becker.robots.Wall 0 6 Direction.WEST
+becker.robots.Wall 1 6 Direction.WEST
+becker.robots.Wall 2 6 Direction.WEST
+becker.robots.Wall 3 6 Direction.WEST
+becker.robots.Wall 5 6 Direction.WEST
+becker.robots.Wall 0 6 Direction.NORTH
+becker.robots.Wall 0 7 Direction.NORTH
+becker.robots.Wall 0 8 Direction.NORTH
+becker.robots.Wall 0 8 Direction.EAST
+becker.robots.Wall 1 8 Direction.EAST
+becker.robots.Wall 2 8 Direction.EAST
+becker.robots.Wall 3 8 Direction.EAST
+becker.robots.Wall 4 8 Direction.EAST
+becker.robots.Wall 5 8 Direction.EAST
+becker.robots.Wall 5 6 Direction.SOUTH
+becker.robots.Wall 5 7 Direction.SOUTH
+becker.robots.Wall 5 8 Direction.SOUTH
+
+#PoisonRoom
+becker.robots.Wall 3 0 Direction.WEST
+becker.robots.Wall 4 0 Direction.WEST
+becker.robots.Wall 5 0 Direction.WEST
+becker.robots.Wall 3 0 Direction.NORTH
+becker.robots.Wall 3 1 Direction.NORTH
+becker.robots.Wall 3 2 Direction.NORTH
+becker.robots.Wall 3 2 Direction.EAST
+becker.robots.Wall 5 2 Direction.EAST
+becker.robots.Wall 5 0 Direction.SOUTH
+becker.robots.Wall 5 1 Direction.SOUTH
+becker.robots.Wall 5 2 Direction.SOUTH
+
+#CorridorOne
+becker.robots.Wall 6 4 Direction.WEST
+becker.robots.Wall 7 4 Direction.WEST
+becker.robots.Wall 8 4 Direction.WEST
+becker.robots.Wall 9 4 Direction.WEST
+becker.robots.Wall 6 4 Direction.EAST
+becker.robots.Wall 7 4 Direction.EAST
+becker.robots.Wall 8 4 Direction.EAST
+becker.robots.Wall 9 4 Direction.EAST
+becker.robots.Wall 10 4 Direction.EAST
+becker.robots.Wall 10 4 Direction.WEST
+
+#BossRoom
+becker.robots.Wall 13 3 Direction.SOUTH
+becker.robots.Wall 13 4 Direction.SOUTH
+becker.robots.Wall 13 5 Direction.SOUTH
+becker.robots.Wall 11 3 Direction.NORTH
+becker.robots.Wall 11 5 Direction.NORTH
+becker.robots.Wall 12 3 Direction.WEST
+becker.robots.Wall 13 3 Direction.WEST
+becker.robots.Wall 11 3 Direction.WEST
+becker.robots.Wall 11 5 Direction.EAST
+becker.robots.Wall 12 5 Direction.EAST
+becker.robots.Wall 13 5 Direction.EAST
+
+

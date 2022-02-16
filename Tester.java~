@@ -1,0 +1,17 @@
+public class Tester
+{
+  public static void main(String[] args)
+  {
+    TestManager test = new TestManager();
+    
+    test.testPlayerCommands();
+    
+    test.testEnemyCommands();
+    
+    test.testRoomStorage();
+    
+    test.testPlayerSaving();
+    
+    //test.testIcons();
+  }
+}

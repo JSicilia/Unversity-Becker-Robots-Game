@@ -1,0 +1,17 @@
+import becker.robots.*;
+import javax.swing.ImageIcon;
+
+/*
+ * This class is the icon creator for the players icon without the sword
+ * 
+ * @author James Sicilia
+ * @version 16.03.2015
+ * */
+public class Potion extends Thing
+{
+  public Potion(City theCity, int str, int ave)
+  {
+    super(theCity, str, ave);
+    this.setIcon(new PotionIcon());
+  }
+}

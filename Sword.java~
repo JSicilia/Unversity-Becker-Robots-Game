@@ -1,0 +1,12 @@
+import becker.robots.*;
+import javax.swing.ImageIcon;
+
+ //Do commenys stuff zzz
+public class Sword extends Thing
+{
+  public Sword(City theCity, int str, int ave)
+  {
+    super(theCity, str, ave);
+    this.setIcon(new SwordIcon());
+    }
+  }
